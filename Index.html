@@ -23,10 +23,20 @@
                     <span>Email</span>
                     <input type="email" name="userEmail" id="userEmail" autocomplete="email" required>
                 </label>
-                <label for="uCountry">
+            <!--<label for="uCountry">
+                    <span>Country</span>
+                    <input type="text" name="uCountry" id="uCountry" autocomplete="country" required> 
                     <span>Country</span>
                     <input type="text" name="uCountry" id="uCountry" autocomplete="country" required>
-                </label>
+                </label> -->
+                <span>Country</span>
+                <input list="uCountry">
+                <datalist id="uCountry">
+                    <option value="Mexico"></option>
+                    <option value="Chile"></option>
+                    <option value="Colombia"></option>
+                </datalist>
+
                 <label for="uZip">
                     <span>Zip Code</span>
                     <input type="text" name="uZip" id="uZip" autocomplete="postal-code" required>
