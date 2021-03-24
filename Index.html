@@ -15,6 +15,27 @@
         </header>
         <main>
             <form action="">
+                <label for="userName">
+                    <span>Name</span>
+                    <input type="text" name="userName" id="userName" autocomplete="name" required>
+                </label>
+                <label for="userEmail">
+                    <span>Email</span>
+                    <input type="email" name="userEmail" id="userEmail" autocomplete="email" required>
+                </label>
+                <label for="uCountry">
+                    <span>Country</span>
+                    <input type="text" name="uCountry" id="uCountry" autocomplete="country" required>
+                </label>
+                <label for="uZip">
+                    <span>Zip Code</span>
+                    <input type="text" name="uZip" id="uZip" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
+            </form>
+
+
+            <form action="">
                 <label for="leavingDate">
                     <span>Leaving Date & time</span>
                     <input type="datetime-local" id="leavingDate" name="leavingDate" /> <!--datetime-local does not work in Mozilla-->
