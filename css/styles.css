@@ -1,0 +1,18 @@
+/* Element Selector */
+li{
+    color: rgba(34, 114, 101, 0.692);
+}
+
+/* Class */
+.titles{
+    font-size: medium;
+    font-family: Arial;
+    color: hotpink;
+}
+
+/* ID */
+
+#references{
+    align-content: center;
+    color:indianred;
+}
