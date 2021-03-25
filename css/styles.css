@@ -1,15 +1,46 @@
-/* Element Selector */
+/* Element Selector 
 li{
     color: rgba(34, 114, 101, 0.692);
 }
+*/
 
 /* Class */
-.titles{
+/*.titles{
     font-size: medium;
     font-family: Arial;
     color: hotpink;
 }
+*/
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /*Remove lists dots*/
+    padding-left: 0; /*0 removes the padding*/
+    background-color: lightblue;
+}
 
+/* sub class*/
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{ /*this affect all of the "a" elements inside "main-nav"*/
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*these styles are applied when certain actions occur*/
+.main-nav__item a:hover{
+    color: blue;
+}
+.main-nav__item a:active{
+    color: red;
+}
+/*these styles are applied in specific parts of an element*/
+.main-nav__item a::after{
+    content: " | "; /*alt+124*/
+}
 /* ID */
 
 #references{
